@@ -112,3 +112,9 @@ exports
 *.cache
 build
 .strapi-updater.json
+
+# Ignorar el archivo de lock de Yarn
+yarn.lock
+
+# Ignorar el archivo de lock de pnpm
+pnpm-lock.yaml
